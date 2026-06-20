@@ -8,6 +8,7 @@
 * **The Solution:** I extracted and modeled data from a 1,000,000-row SQL database to identify all 'Pending' transactions. By calculating the "Days Since Request" (Aging Risk) and visualizing the total monetary exposure, this dashboard provided the operations team with a dynamic "hit-list" to instantly target the longest-waiting customers and clear the backlog efficiently.
 
 **Phase 2: The CFO Executive View (Work in Progress)**
+<img width="1401" height="639" alt="CFO_Executive_View_Phase2" src="https://github.com/user-attachments/assets/fcfa7553-4b1b-4e0b-acb4-d2f1ec044970" />
 * **The Trigger:** A follow-up request from the Chief Financial Officer (CFO): *"Now that the operational backlog is clearing, I need exact figures on our 'Repurchase' efficiency this month. What is our total successful repurchase volume? More importantly, how much cash is trapped due to 'Failed' transactions, and what is the average value of these failures?"*
 * **The Goal:** Expanding the data model to include an Executive KPI layer. I am currently developing advanced DAX measures to calculate "Total Successful Repurchases", "Trapped Cash (Revenue at Risk)", and "Average Failed Transaction Value" to provide executive leadership with real-time financial oversight.
 
