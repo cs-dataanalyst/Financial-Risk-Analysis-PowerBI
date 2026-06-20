@@ -1,15 +1,12 @@
--- ==========================================================================================
 -- Phase 1: Operational Backlog Analysis (Member Services Request)
 -- Purpose: Identify oldest pending transactions to prioritize operational workflow.
--- ==========================================================================================
+----------------------------------------------------------------------------------
 
 -- 1. Detailed view of pending transactions prioritized by age
-SELECT * 
+SELECT *
 FROM [dbo].[Simulated_Transactions]
 WHERE Status = 'Pending'
 ORDER BY days_since_request DESC;
-
-------------------------------------------------------------------------------------------
 
 -- 2. Aggregated view: Total monetary risk and transaction count by age and type
 SELECT 
@@ -22,11 +19,9 @@ WHERE Status = 'Pending'
 GROUP BY days_since_request, transaction_type
 ORDER BY days_since_request DESC;
 
-
--- ==========================================================================================
 -- Phase 2: CFO Executive Summary - Repurchase Efficiency & Revenue at Risk
 -- Purpose: Quantify successful repurchases and calculate trapped cash due to failed operations.
--- ==========================================================================================
+----------------------------------------------------------------------------------
 
 -- 3. Executive KPI metrics for Repurchase operations
 SELECT 
