@@ -30,3 +30,12 @@ SELECT
     AVG(CASE WHEN Status = 'Failed' THEN amount ELSE NULL END) AS Average_Failed_Transaction
 FROM [dbo].[Simulated_Transactions]
 WHERE transaction_type = 'Repurchase';
+
+-- 4. Granular breakdown of transaction performance by type
+SELECT 
+    transaction_type, 
+    SUM(amount) AS Total_Volume,
+    COUNT(transaction_id) AS Transaction_Count
+FROM [dbo].[Simulated_Transactions]
+WHERE Status IN ('Success', 'Failed')
+GROUP BY transaction_type;
