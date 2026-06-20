@@ -26,5 +26,8 @@ This project focuses on identifying financial risks associated with pending tran
 
 ---
 ### 📂 Project Resources & Source Files
-
+* **`Financial_Risk_Analysis_Dashboard.pbix`**: Interactive Power BI dashboard containing all visualizations, dynamic currency toggles, and DAX measures.
+* **`Simulated_Transactions_1M.csv`**: The comprehensive 1-million-row raw dataset used for the analysis.
+* **`Data_Extraction_and_Risk_Queries.sql`**: SQL queries utilized for data extraction, joining tables, and preliminary risk filtering.
+  
 *Note: Sensitive and personal data within this project has been fully masked and anonymized to ensure privacy.*
