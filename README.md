@@ -26,6 +26,5 @@ This project focuses on identifying financial risks associated with pending tran
 
 ---
 ### 📂 Project Resources & Source Files
-[Click here to download the Project Assets (Power BI, SQL, & Dataset)](https://drive.google.com/drive/folders/1SYE_2HIsfkcFPYDUlNSzurE6Mih0_LQC?usp=drive_link)
 
 *Note: Sensitive and personal data within this project has been fully masked and anonymized to ensure privacy.*
