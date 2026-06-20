@@ -1,11 +1,14 @@
 # Financial Risk & Pending Transactions Analysis
 <img width="1687" height="743" alt="Financial_Risk_Analysis_Dashboard" src="https://github.com/user-attachments/assets/28c0932b-f1a5-4d3d-b1ea-e36faf22022c" />
 
-## Project Overview
+## 📌 Business Scenarios & Executive Summary
 
+**Phase 1: The Member Services Escalation (Operational Backlog)**
+* **The Trigger:** A critical escalation from the corporate Member Services team: *"We have members who submitted refund requests, but their money has been pending for days. We need an urgent, prioritized list of the oldest 'Pending' transactions to resolve customer dissatisfaction."*
+* **The Solution:** I extracted and modeled data from a 1,000,000-row SQL database to identify all 'Pending' transactions. By calculating the "Days Since Request" (Aging Risk) and visualizing the total monetary exposure, this dashboard provided the operations team with a dynamic "hit-list" to instantly target the longest-waiting customers and clear the backlog efficiently.
 
-
-This project focuses on identifying financial risks associated with pending transactions. By analyzing refund and repurchase requests, this dashboard provides actionable insights into operational bottlenecks and potential revenue at risk.
+**Phase 2: The CFO Executive View (Work in Progress)**
+* *Following the successful resolution of the operational backlog, this project is currently being expanded to address a new top-level request from the CFO. The upcoming iteration will focus on quantifying the exact monetary loss and 'Revenue at Risk' caused by failed 'Repurchase' operations.*
 
 ## Technical Architecture & Tools
 * **Data Source & Extraction:** SQL Server (SSMS). Successfully managed and migrated a 1,000,000-row dataset for financial reporting.
